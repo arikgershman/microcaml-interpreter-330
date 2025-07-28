@@ -7,4 +7,8 @@ _opam/
 
 # project specific
 LATE_TOKEN
+.ocamlformat
+.ocamlformat-ignore
+.ocamlinit
+.submit
 
