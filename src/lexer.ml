@@ -1,6 +1,6 @@
 open Types
 
-(* Part 1: Lexer - IMPLEMENT YOUR CODE BELOW *)
+(* Part 1: Lexer - my code *)
 
 let rec tokenize input = 
     let len = String.length input in

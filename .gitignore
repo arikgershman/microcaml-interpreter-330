@@ -4,3 +4,7 @@ _opam/
 
 # macos moment
 .DS_Store
+
+# project specific
+LATE_TOKEN
+

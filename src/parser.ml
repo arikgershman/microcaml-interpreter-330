@@ -1,7 +1,7 @@
 open Types
 open Utils
 
-(* Provided functions - DO NOT MODIFY *)
+(* Provided functions - did not modify *)
 
 (* Matches the next token in the list, throwing an error if it doesn't match the given token *)
 let match_token (toks : token list) (tok : token) =
@@ -31,6 +31,7 @@ let rec lookahead_many (toks : token list) (n : int) =
   | _ :: t, n when n > 0 -> lookahead_many t (n - 1)
   | _ -> None
 
+(* MY CODE *)
 (* Part 2: Parsing expressions *)
 let rec parse_expr toks = let ret = 
 

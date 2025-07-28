@@ -1,6 +1,6 @@
 open Types
 
-(* Provided functions - DO NOT MODIFY *)
+(* Provided functions - did not modify *)
 
 (* Adds mapping [x:v] to environment [env] *)
 let extend env x v = (x, ref v) :: env
@@ -22,6 +22,7 @@ let rec update env x v =
   | [] -> raise (DeclareError ("Unbound variable " ^ x))
   | (var, value) :: t -> if x = var then value := v else update t x v
 
+(* MY CODE *)
 (* Part 1: Evaluating expressions *)
 
 (* Evaluates MicroCaml expression [e] in environment [env],
