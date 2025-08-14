@@ -82,4 +82,4 @@ To run and test this OCaml project, ensure you have OCaml installed. The project
     dune exec bin/mutop.exe
     ```
     
-    This will open a `mutop #` prompt where you can type MicroCaml expressions and definitions, ending each with `;;`.
+    This will open a `mutop #` prompt where you can type MicroCaml expressions and definitions, ending each with `;;`. **To exit the `mutop` interpreter, press `Ctrl-D` / `Cmd-D`.**
